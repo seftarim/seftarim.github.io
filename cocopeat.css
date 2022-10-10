@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#BBD2C5, #536976, #292E49);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-items{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.header-left-img{
+    width: 150px; 
+    height: 80px;
+}
+
+.header-right{
+    margin-right: 10px;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.header-right-img-1{
+    width: 52px; 
+    margin-right: 20px;
+}
+
+.header-right-img-2{
+    width: 52px
+}
+
+.menu-icon{
+    width: 50px;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.nav-items{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right button {
+    width: 100px;
+    height: 40px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #3c5d70;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.nav-right button:hover {
+    background-color: aliceblue;
+    color: #292E49;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.ru{
+    margin-left: 10px;
+}
+
+.list{
+    width: 250px;
+    height: 300px;
+    background-color: #BBD2C5;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.ul-list {
+    list-style-type: none;
+}
+
+.ul-list li{
+    margin-bottom: 15px;
+}
+
+
+.ul-list li a{
+    text-decoration: none;
+    color: #292E49;
+}
+
+
+.ul-list li a:hover {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.page-middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-middle button {
+    background: linear-gradient(#BBD2C5, #536976, #292E49);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+}
+
+.productsImages{
+    width: 1000px;
+    height: 600px;
+    margin: 0 40px 0 40px;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+footer h1{
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 479px){
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#bbd2c5, #536976, #292e49);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  header {
+    width: 100%;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .header-items {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+  }
+  
+  .header-left-img {
+    width: 120px;
+    height: 64px;
+  }
+  
+  .header-right {
+    margin-right: 10px;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+  }
+  
+  .header-right-img-1 {
+    width: 32px;
+    margin-right: 20px;
+  }
+  
+  .header-right-img-2 {
+    width: 32px;
+  }
+  
+  .menu-icon {
+    width: 30px;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  
+  .nav-items {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-right button {
+    width: 60px;
+    height: 40px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #3c5d70;
+    color: aliceblue;
+    font-size: 10px;
+    border-radius: 10px;
+  }
+  
+  .nav-right button:hover {
+    background-color: aliceblue;
+    color: #292e49;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  
+  .ru {
+    margin-left: 10px;
+  }
+  
+  .list {
+    width: 200px;
+    height: 260px;
+    background-color: #bbd2c5;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .ul-list {
+    list-style-type: none;
+  }
+  
+  .ul-list li {
+    margin-bottom: 10px;
+  }
+  
+  .ul-list li a {
+    text-decoration: none;
+    color: #292e49;
+  }
+  
+  .ul-list li a:hover {
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+
+  section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.page-middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-middle button {
+    background: linear-gradient(#BBD2C5, #536976, #292E49);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+}
+
+.page-middle button img {
+    width: 30px;
+  }
+
+.productsImages{
+    width: 280px;
+    height: 150px;
+    margin: 0 5px 0 5px;
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+footer h1{
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border-bottom: #292E49 2px solid;
+}
+}
